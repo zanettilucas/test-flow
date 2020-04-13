@@ -1,15 +1,16 @@
 {
-  "name": "Developer-Applicant-Interview-Test",
+  "name": "testflow",
   "version": "1.0.0",
   "description": ".",
   "main": "api.js",
   "scripts": {
     "start": "node api.js",
-    "dev": "nodemon api.js"
+    "dev": "nodemon api.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zanettilucas/tp2-proyecto-final.git"
+    "url": "git+ssh://git@github.com/zanettilucas/test-flow.git"
   },
   "author": "Zaetti Lucas",
   "license": "MIT",
@@ -21,11 +22,11 @@
     "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.17.1",
-    "mocha": "^6.2.2",
-    "should": "^13.2.3",
-    "supertest": "^4.0.2"
+    "follow-redirects": "^1.11.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10"
+    "jest": "^25.3.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
   }
 }
